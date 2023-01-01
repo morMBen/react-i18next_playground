@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { useState } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 import logo from '../logo.svg';
@@ -56,7 +57,13 @@ function Messages() {
   );
 }
 
-export default Messages;
+export default function WrappedApp() {
+  return (
+    <Suspense fallback='...is loading'>
+      <Messages />
+    </Suspense>
+  );
+}
 /* language */
 //* i18next.language;
 //? Is set to the current detected or set language.

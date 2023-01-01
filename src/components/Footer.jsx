@@ -5,7 +5,6 @@ const getGreetingTime = (d = DateTime.now()) => {
   const currentHour = parseFloat(d.c.hour);
   //   const currentHour = parseFloat(d.toFormat('hh'));
 
-  console.log(d.c.hour);
   if (currentHour >= split_afternoon && currentHour <= split_evening) {
     return 'afternoon';
   } else if (currentHour >= split_evening) {

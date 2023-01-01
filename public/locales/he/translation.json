@@ -1,0 +1,14 @@
+{
+  "description": {
+    "part1": "ערוך את  <1>src/App.js</1>  ושמור לטעינה מחדש.",
+    "part2": "ללמוד ריאקט"
+  },
+  "counter_one": "השפה השתנתה רק פעם אחת",
+  "counter_other": "השפה השתנתה {{count}} פעמים.",
+  "footer": {
+    "date": "התאריך הוא {{date, DATE_HUGE}}",
+    "date_morning": "בוקר אור! היום  {{date, DATE_HUGE}} | יום טוב!",
+    "date_afternoon": "אחר צהריים טובים! היום {{date, DATE_HUGE}}",
+    "date_evening": "ערב טוב! היום היה {{date, DATE_HUGE}}"
+  }
+}
